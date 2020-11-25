@@ -1,0 +1,28 @@
+{
+"staff":[
+        {
+            "title": "Mr",
+            "firstName": "Ben",
+            "lastName": "Smith",
+            "contactDetails":{
+             "mobile": "08872767899",
+                    "landLine": "none",
+                    "email": "bSmithy@hotmail.com"
+                }
+        },
+        {
+            "title": "Ms",
+            "firstName": "Jane",
+            "lastName": "Brown",
+            "contactDetails":{
+             "mobile": "04472767892",
+                    "landLine": "01273-437887",
+                    "email": "brownJ@gmail.com"
+                }
+        }
+
+
+        ]
+}
+
+

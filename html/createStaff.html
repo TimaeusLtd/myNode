@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Create New Staff Member</title>
+        <link rel="stylesheet"  type="text/css" href="/styles/default">
+    </head>
+    <body>
+        <nav id="imageNavigation" title="return to home page">
+            <a href="/home" title="return to home page">
+                <img class="NavImage" src="/image/home" alt="home icon">
+            </a>  
+        </nav>        
+        <h1>Create Staff Member</h1>
+        <form action="/new/staff" method="POST">
+            <fieldset>
+                <legend>New Staff Member Details:</legend>
+                <label for="firstName">First name:</label><br>
+                <input type="text" id="firstName" name="firstName" required><br>
+                <label for="lastName">Last name:</label><br>
+                <input type="text" id="lastName" name="lastName" required><br>
+                <input type="submit" value="Create">
+                </fieldset>
+        </form>
+    </body>
+</html>
